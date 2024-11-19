@@ -1,0 +1,38 @@
+.btn{
+    transition: all .2s;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.btn:active{
+    scale: 97%;
+}
+
+.btn_small{
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.btn_medium{
+    padding: 15px 25px;
+    font-size: 14px;
+}
+
+.btn_big{
+    padding: 25px 55px;
+    font-size: 18px;
+}
+
+.btn_secondary{
+    background-color: grey;
+    color: white;
+}
+
+.btn_primary{
+    background-color: rgb(52, 130, 255);
+    color: white;
+}
