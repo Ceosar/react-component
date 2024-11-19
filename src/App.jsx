@@ -10,10 +10,10 @@ function App() {
     <div className='wrapper'>
       <Button onClick={handleClick} isDisabled={false} title={'Push me!'} />
       <Button onClick={handleClick} isDisabled={false} title={'Push me!'} size='medium' />
-      <Button onClick={handleClick} isDisabled={false} title={'Push me!'} size='big' />
+      <Button onClick={handleClick} isDisabled={false} title={'Push me!'} size='big' variant='secondary' />
       <Button onClick={handleClick} isDisabled={false} title={'Push me!'} size='big' variant='primary' />
       <Button onClick={handleClick} isDisabled={false} title={'Push me!'} size='medium' variant='primary' />
-      <Button onClick={handleClick} isDisabled={false} title={'Push me!'} size='small' variant='primary' />
+      <Button onClick={handleClick} isDisabled={true} title={'Push me!'} size='small' variant='primary' />
     </div>
   )
 }

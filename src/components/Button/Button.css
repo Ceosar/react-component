@@ -12,6 +12,14 @@
     scale: 97%;
 }
 
+.btn:disabled{
+    opacity: 0.5;
+}
+
+.btn:disabled:active{
+    scale: 100%;
+}
+
 .btn_small{
     padding: 10px 15px;
     font-size: 12px;
